@@ -10,9 +10,13 @@ public class InputusingForLoop {
             System.out.print("Enter " + (i+1) + " Element : ");
             arr[i] = sc.nextInt();
         }
-        for(int i=0;i<arr.length;i++) {
-            System.out.println(arr[i] + " ");
+        // for(int i=0;i<arr.length;i++) {
+        //     System.out.println(arr[i] + " ");
+
+        for(int num : arr) { // for every element in array, print the element
+            System.out.print(num + " "); // here num represents element of the array
         }
     }
-    
 }
+    
+
