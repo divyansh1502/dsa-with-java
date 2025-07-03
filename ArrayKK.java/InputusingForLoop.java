@@ -16,7 +16,7 @@ public class InputusingForLoop {
         // for(int num : arr) { // for every element in array, print the element
         //     System.out.print(num + " "); // here num represents element of the array
         System.out.println(Arrays.toString(arr));
-    }
+        }
 }
 
     
