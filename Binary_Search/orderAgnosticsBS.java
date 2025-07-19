@@ -26,10 +26,10 @@ public class orderAgnosticsBS {
             if (isAsc) {
                 if (target < arr[mid]) {
                 end = mid - 1;
-            } else if (target > arr[mid]) {
+            } else {
                 start = mid + 1;
             }
-            else {
+            } else {
                 if (target > arr[mid]) {
                 end = mid - 1;
                 } else {
@@ -37,8 +37,7 @@ public class orderAgnosticsBS {
                   }
             }
 
-            }
-        }
+            }       
         return -1;
     }
 }
