@@ -32,6 +32,4 @@ public class returnTheIndex {
             }
             return -1;
         }
-    
-    
 }
