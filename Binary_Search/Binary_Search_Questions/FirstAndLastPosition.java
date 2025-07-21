@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
 import java.util.Arrays;
 
 public class FirstAndLastPosition {
@@ -10,11 +11,8 @@ public class FirstAndLastPosition {
     static int[] searchRange(int[] nums, int target) {
         int[] ans = {-1, -1};
 
-        int start = search(nums, target, true);  // First occurrence
-        int end = search(nums, target, false);   // Last occurrence
-
-        ans[0] = start;
-        ans[1] = end;
+        ans[0] = search(nums, target, true);  // First occurrence
+        ans[1] = search(nums, target, false);   // Last occurrence
 
         return ans;
     }
