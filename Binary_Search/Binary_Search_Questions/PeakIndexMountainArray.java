@@ -24,7 +24,7 @@ public class PeakIndexMountainArray {
             return start; // or end as both are equal
             //when start == end loop will terminate and we will find the peak value index
             //Start and end are always try to find max element in above 2 checks
-            //hence, when they are pointing to just one element that was rhe maximum one because that is what the check say
+            //hence, when they are pointing to just one element that was the maximum one because that is what the check say
             //more elaboration: at every time of start and end, they have the best possilbe answer till that time
             //and if we are saying that only one item is remaining,hence cuz of above line that is best possible answer
         }
