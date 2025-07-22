@@ -20,5 +20,4 @@ public class LCsearchInsertPosition {
         }
         return start;
     }
-    
 }
