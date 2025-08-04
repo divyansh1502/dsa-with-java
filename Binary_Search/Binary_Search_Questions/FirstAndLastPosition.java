@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class FirstAndLastPosition {
     public static void main(String[] args) {
-        int[] nums = {5, 7, 7, 7, 7, 8, 8, 10};
+        int[] nums = {5, 7, 7, 7 , 7, 8, 8, 10};
         int target = 7;
         System.out.println(Arrays.toString(searchRange(nums, target)));
     }
@@ -11,9 +11,10 @@ public class FirstAndLastPosition {
     static int[] searchRange(int[] nums, int target) {
         int[] ans = {-1, -1};
 
-        ans[0] = search(nums, target, true);  // First occurrence
-        ans[1] = search(nums, target, false);   // Last occurrence
-
+        ans[0] = search(nums, target, true);
+        if (ans[0] != -1) {  // First occurrence
+            ans[1] = search(nums, target, false);   // Last occurrence
+        }
         return ans;
     }
 
