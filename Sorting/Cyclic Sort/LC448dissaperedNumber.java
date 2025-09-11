@@ -8,7 +8,7 @@ public class LC448dissaperedNumber {
         int i = 0;
         while(i < nums.length) {
             int correct = nums[i] - 1;
-            if(nums[i] < nums.length && nums[i] != nums[correct]) {
+            if(nums[i] <= nums.length && nums[i] != nums[correct]) {
                 swap(nums, i , correct);
             } else {
                 i++;
