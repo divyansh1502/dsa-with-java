@@ -69,8 +69,4 @@ Here’s how far I’ve got:
 
 ---
 
-## 💡 How To Use This Repo
-
-1. Fork or clone this repository.  
-   ```bash
-   git clone https://github.com/divyansh1502/dsa-with-java.git
+## 💡 Thank You for  Visting in my Repo
