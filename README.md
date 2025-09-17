@@ -48,7 +48,7 @@ Below are the main topics covered in the bootcamp, as per the syllabus. I’m tr
 
 ## ✅ My Progress
 
-Here’s how far I’ve got (you can update this as you move through the course):
+Here’s how far I’ve got:
 
 | Module | Status |
 |--------|--------|
