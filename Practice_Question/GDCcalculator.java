@@ -8,7 +8,7 @@ public class GDCcalculator {
         System.out.print("Enter the 2nd number : ");
         int b = sc.nextInt();
 
-        while(a != b) {
+        while(a != b) {   
             if(a > b) {
                 a = a - b;
             } else {

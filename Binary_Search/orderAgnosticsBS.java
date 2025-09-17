@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class orderAgnosticsBS {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] arr = {-18, -12, -6, 0, 3, 13, 17, 25, 55, 99};
+        //int[] arr = {-18, -12, -6, 0, 3, 13, 17, 25, 55, 99};
+        int[] arr = {99, 55, 36, 17, 15, 12, 10, 6, 3, 1, -3, -14};
         System.out.print("Enter the target number : ");
-        int target = sc.nextInt();
-        int ans = orderAgnosticBS(arr, target);
-        System.out.print(ans);
+        int target = sc.nextInt(); 
+        System.out.print(orderAgnosticBS(arr, target));
     }
     
     static int orderAgnosticBS(int[] arr, int target) {
@@ -25,7 +25,7 @@ public class orderAgnosticsBS {
             }
             if (isAsc) {
                 if (target < arr[mid]) {
-                end = mid - 1;
+                end = mid - 1;                          
             } else {
                 start = mid + 1;
             }

@@ -8,7 +8,7 @@ public class PasswordStrengthChecker {
         int score = evaluatePassword(password);
 
         System.out.println("\nPassword : " + password);
-        System.out.println("\nScore : " + score + "\6");
+        System.out.println("\nScore : " + score + "/6");
 
         if (score >= 5) System.out.println("Strength : STRONG");
         else if (score >= 3) System.out.println("Strength : MEDIUM");
