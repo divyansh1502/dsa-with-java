@@ -73,4 +73,4 @@ Here’s how far I’ve got (you can update this as you move through the course)
 
 1. Fork or clone this repository.  
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/divyansh1502/dsa-with-java.git
