@@ -24,7 +24,7 @@ public class Intro {
         float[] marks = new float[5];
     }
 }
-// Class is name group of property & fn
+// Class is name group of property & fn.
 // A class is an template of an objects
 // An object is an instsance of a class
 // Class --> logical Construct
