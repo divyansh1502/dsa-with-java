@@ -1,4 +1,3 @@
-import java.util.Arrays;
 public class Intro {
     public static void main(String[] args) {
         // Stores 5 roll nos.
@@ -15,12 +14,20 @@ public class Intro {
         Student[] students = new Student[5];
 
         // just declaring
-        Student divyansh;
+        Student divyansh = new Student();
 
-        System.out.println(Arrays.toString(students));
+        divyansh.rno = 22;
+        divyansh.name = "Divyansh Singh";
+        divyansh.marks = 88.5f;
+
+        System.out.println(divyansh.rno);
+        System.out.println(divyansh.name);
+        System.out.println(divyansh.marks);
+
+        // System.out.println(Arrays.toString(students));
     }
     // Creating a class
-    class Student {
+    static class Student {
         int rno;
         String name;
         float marks;
